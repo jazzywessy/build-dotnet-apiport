@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Fx.Portability.Offline</name>
+    </assembly>
+    <members>
+        <member name="M:Microsoft.Fx.Portability.Data.LoadAdditionalData">
+            <summary>
+            Location for loading in the Additional Data when ApiPort is being run in offline mode.
+            </summary>
+            <returns>An AdditionalDataCatalog containing found additional data.</returns>
+        </member>
+        <member name="T:Microsoft.Fx.Portability.Offline.Resources.LocalizedStrings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Offline.Resources.LocalizedStrings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Offline.Resources.LocalizedStrings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Offline.Resources.LocalizedStrings.DataFileNotFound">
+            <summary>
+              Looks up a localized string similar to Could not find data file &apos;{0}&apos;. Either ensure the file is accessible during build or place it next to ApiPort at runtime..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Offline.Resources.LocalizedStrings.LoadingBreakingChanges">
+            <summary>
+              Looks up a localized string similar to Loading breaking changes.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Offline.Resources.LocalizedStrings.LoadingCatalog">
+            <summary>
+              Looks up a localized string similar to Loading catalog.
+            </summary>
+        </member>
+    </members>
+</doc>

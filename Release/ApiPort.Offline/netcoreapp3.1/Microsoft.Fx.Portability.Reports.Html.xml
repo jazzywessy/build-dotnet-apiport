@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Fx.Portability.Reports.Html</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.API">
+            <summary>
+              Looks up a localized string similar to API.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Assembly">
+            <summary>
+              Looks up a localized string similar to Assembly.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.AssemblyHeader">
+            <summary>
+              Looks up a localized string similar to Assembly.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.AssemblyIsInvalid">
+            <summary>
+              Looks up a localized string similar to {0} is an invalid assembly..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.AvailableNuGetPackages">
+            <summary>
+              Looks up a localized string similar to Available NuGet Packages .
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.BackToSummary">
+            <summary>
+              Looks up a localized string similar to Back to Summary.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.BreakingChangeDisclaimer">
+            <summary>
+              Looks up a localized string similar to Note that simply using a potentially broken API does not mean the app will necessarily suffer from the indicated breaking change. Many breaking changes are scoped to narrow corner-cases, and apps are only affected if they use the API in a very particular way. Breaking changes below have been grouped by scope (major, minor, or edge) depending on how likely the changes are to actually break user code in cases where the given API is used. Please read the &apos;details&apos; column to understand the particular circumstan [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.CatalogLastUpdated">
+            <summary>
+              Looks up a localized string similar to API Catalog last updated on.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Collapse">
+            <summary>
+              Looks up a localized string similar to Collapse.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.CompatibilityPageTitle">
+            <summary>
+              Looks up a localized string similar to Framework Compatibility.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Contents">
+            <summary>
+              Looks up a localized string similar to Contents.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.CouldNotLocate">
+            <summary>
+              Looks up a localized string similar to Could not locate: {0}.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Details">
+            <summary>
+              Looks up a localized string similar to Details.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Edge">
+            <summary>
+              Looks up a localized string similar to Edge.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.EdgeCompatibilityIssues">
+            <summary>
+              Looks up a localized string similar to Edge Compatibility Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.EdgeCompatIssueDescription">
+            <summary>
+              Looks up a localized string similar to Edge issues are those that will only impact a small minority of customers that use the given API in very specific ways. See issue details for more information..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.EdgeRetargetingIssues">
+            <summary>
+              Looks up a localized string similar to Edge Retargeting Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.ExistingResources">
+            <summary>
+              Looks up a localized string similar to Existing resources:.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Expand">
+            <summary>
+              Looks up a localized string similar to Expand.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.HideColumns">
+            <summary>
+              Looks up a localized string similar to Hide columns:.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.HideRows">
+            <summary>
+              Looks up a localized string similar to Hide rows:.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.HideRowsWithNoProblems">
+            <summary>
+              Looks up a localized string similar to Hide rows that don&apos;t have problems.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.HtmlReportTitle">
+            <summary>
+              Looks up a localized string similar to .NET Portability Report.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.IgnoredAssemblies">
+            <summary>
+              Looks up a localized string similar to Ignored Assemblies:.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Introduced">
+            <summary>
+              Looks up a localized string similar to Introduced.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.InvalidBreakingChangeCountTagContent">
+            <summary>
+              Looks up a localized string similar to Invalid content for breaking-change-count tag: {0}.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.InvalidErrorThresholdAttribute">
+            <summary>
+              Looks up a localized string similar to Invalid error-threshold attribute: {0}.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Link">
+            <summary>
+              Looks up a localized string similar to Link.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Major">
+            <summary>
+              Looks up a localized string similar to Major.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.MajorCompatibilityIssues">
+            <summary>
+              Looks up a localized string similar to Major Compatibility Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.MajorCompatIssueDescription">
+            <summary>
+              Looks up a localized string similar to Major issues are those that are likely to impact most customers using the given feature or API..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.MajorRetargetingIssues">
+            <summary>
+              Looks up a localized string similar to Major Retargeting Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Minor">
+            <summary>
+              Looks up a localized string similar to Minor.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.MinorCompatibilityIssues">
+            <summary>
+              Looks up a localized string similar to Minor Compatibility Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.MinorCompatIssueDescription">
+            <summary>
+              Looks up a localized string similar to Minor issues are those that will only impact customers using the given feature in a particular way. See issue details for more information..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.MinorRetargetingIssues">
+            <summary>
+              Looks up a localized string similar to Minor Retargeting Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.MissingAssemblies">
+            <summary>
+              Looks up a localized string similar to Missing Assemblies.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.MoreInfo">
+            <summary>
+              Looks up a localized string similar to More info.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.NoCompatIssuesDetected">
+            <summary>
+              Looks up a localized string similar to No {0} detected..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.NotSupported">
+            <summary>
+              Looks up a localized string similar to Not supported.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.PackageIdHeader">
+            <summary>
+              Looks up a localized string similar to PackageId.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.PerAssemblyOverview">
+            <summary>
+              Looks up a localized string similar to Per Assembly Overview:.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.PortabilityDetails">
+            <summary>
+              Looks up a localized string similar to Portability Details.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.PortabilitySummary">
+            <summary>
+              Looks up a localized string similar to Portability Summary.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Quirked">
+            <summary>
+              Looks up a localized string similar to Quirked.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Recommendation">
+            <summary>
+              Looks up a localized string similar to Recommendation.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RecommendedChanges">
+            <summary>
+              Looks up a localized string similar to Recommended changes.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RecommendedOrderDetails">
+            <summary>
+              Looks up a localized string similar to Migration is much easier by following a bottom up approach. Projects with less dependencies should be migrated to .NET Standard or .NET Core first, followed by the ones that may depend on that. For this submission, the following is the recommended order:.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RecommendedOrderHeader">
+            <summary>
+              Looks up a localized string similar to Recommend Order.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RetargetingCompatibilityIssues">
+            <summary>
+              Looks up a localized string similar to Retargeting Compatibility Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RetargetingCompatIssueDescriptionPart1">
+            <summary>
+              Looks up a localized string similar to Retargeting compatibility issues are breaking changes that only manifest when code is targeted to run on a newer .Net Framework version. This can happen if an application does not have a &lt;a href=&quot;https://docs.microsoft.com/dotnet/api/system.runtime.versioning.targetframeworkattribute&quot;&gt;TargetFrameworkAttribute&lt;/a&gt; or when the application is rebuilt with a newer toolset..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RetargetingCompatIssueDescriptionPart2">
+            <summary>
+              Looks up a localized string similar to These issues are less impactful than runtime compatibility issues because they can typically be worked around easily, either by using a &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/system.runtime.versioning.targetframeworkattribute%28v=vs.110%29.aspx&quot;&gt;TargetFrameworkAttribute&lt;/a&gt; on the assembly, using a &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/bb398202.aspx&quot;&gt;TargetFrameworkVersion&lt;/a&gt; in the project file, or using older tools at build-time, depending on the particular issue. See issue details [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RetargetingCompatIssueDescriptionPlainText">
+            <summary>
+              Looks up a localized string similar to Retargeting compatibility issues are breaking changes that only manifest when code is targeted to run on a newer .NET Framework version. These issues are less impactful than runtime compatibility issues because they can typically be worked around easily, either by using a TargetFrameworkAttribute on the assembly, using a TargetFrameworkVersion in the project file, or using older tools at build-time, depending on the particular issue. See issue details below for more information on how these breaking changes [rest of string was truncated]&quot;;.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RetargetingIssues">
+            <summary>
+              Looks up a localized string similar to Retargeting Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RetargetingIssuesHeader">
+            <summary>
+              Looks up a localized string similar to Retargeting Compatibility Issues ({0}).
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Reverted">
+            <summary>
+              Looks up a localized string similar to Reverted.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RuntimeCompatibilityIssues">
+            <summary>
+              Looks up a localized string similar to Runtime Compatibility Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RuntimeCompatIssueDescription">
+            <summary>
+              Looks up a localized string similar to Runtime compatibility issues are those that will occur simply by running code on a new .NET Framework version. These are the variety of breaking changes most likely to impact applications since they cannot be quirked away and do not depend on an application being recompiled..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RuntimeIssues">
+            <summary>
+              Looks up a localized string similar to Runtime Issues.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.RuntimeIssuesHeader">
+            <summary>
+              Looks up a localized string similar to Runtime Compatibility Issues ({0}).
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.SubmissionId">
+            <summary>
+              Looks up a localized string similar to Submission Id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.SubmissionOverview">
+            <summary>
+              Looks up a localized string similar to Submission Overview:.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Supported">
+            <summary>
+              Looks up a localized string similar to Supported.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.TargetTypeHeader">
+            <summary>
+              Looks up a localized string similar to Target type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Html.Resources.LocalizedStrings.Version">
+            <summary>
+              Looks up a localized string similar to Version.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Fx.Portability.Reports.HtmlRazorReportWriter.ConfigureRazorViews(Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartManager,Microsoft.Extensions.FileProviders.IFileProvider)">
+            <summary>
+            Checks if the precompiled razor views have been added as an
+            ApplicationPart. If not, adds them.
+            On .NET 461, Microsoft.Fx.Portability.Reports.Html.dll
+            and Microsoft.Fx.Portability.Reports.Html.Views.dll are
+            not added to the ApplicationPartsManager by default.
+            For more information: https://github.com/aspnet/Razor/issues/2262.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Fx.Portability.Reports.RazorHtmlObject">
+            <summary>
+            Please do not use this class directly, it is for Razor so that the engine can compute the HTML pages properly.
+            </summary>
+        </member>
+    </members>
+</doc>

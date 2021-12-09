@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Fx.Portability.Reports.DGML</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Fx.Portability.Reports.DGML.DGMLManager">
+            <summary>
+            This class will manage the IDs that we generate for the DGML graph.
+            </summary>
+        </member>
+    </members>
+</doc>

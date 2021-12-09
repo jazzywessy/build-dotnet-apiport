@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.Fx.Portability.Reports.Excel</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.AssemblyHeader">
+            <summary>
+              Looks up a localized string similar to Assembly Name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.BreakingChanges">
+            <summary>
+              Looks up a localized string similar to Breaking Changes.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.CatalogLastUpdated">
+            <summary>
+              Looks up a localized string similar to API Catalog last updated on.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.Description">
+            <summary>
+              Looks up a localized string similar to Description.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.DetailsPageTitle">
+            <summary>
+              Looks up a localized string similar to Details.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.ExceptionColumnHeader">
+            <summary>
+              Looks up a localized string similar to Exception Thrown.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.ExceptionsWorksheetTitle">
+            <summary>
+              Looks up a localized string similar to Exceptions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.HowToReadTheExcelTable">
+            <summary>
+              Looks up a localized string similar to See &apos;https://aka.ms/dotnet-portabilityanalyzer&apos; to learn how to read this table.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.NoExceptionNoted">
+            <summary>
+              Looks up a localized string similar to No Notable Exceptions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.NotSupported">
+            <summary>
+              Looks up a localized string similar to Not supported.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.PackageIdHeader">
+            <summary>
+              Looks up a localized string similar to PackageId.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.PortabilitySummaryPageTitle">
+            <summary>
+              Looks up a localized string similar to Portability Summary.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.RecommendedChanges">
+            <summary>
+              Looks up a localized string similar to Recommended changes.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.RecommendedOrderDetails">
+            <summary>
+              Looks up a localized string similar to Migration is much easier by following a bottom up approach. Projects with less dependencies should be migrated to .NET Standard or .NET Core first, followed by the ones that may depend on that. For this submission, the following is the recommended order:.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.RecommendedOrderHeader">
+            <summary>
+              Looks up a localized string similar to Recommended Order.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.RecommendedOrderMissing">
+            <summary>
+              Looks up a localized string similar to No entrypoint was provided. If a submission includes an entrypoint, a recommendation for what order to migrate projects can be provided..
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.SkippedAssembly">
+            <summary>
+              Looks up a localized string similar to Skipped Assembly.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.SubmissionId">
+            <summary>
+              Looks up a localized string similar to Submission Id.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.SupportedPackages">
+            <summary>
+              Looks up a localized string similar to Supported Packages.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.TargetMemberHeader">
+            <summary>
+              Looks up a localized string similar to Target member.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.Targets">
+            <summary>
+              Looks up a localized string similar to Targets.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.TargetTypeHeader">
+            <summary>
+              Looks up a localized string similar to Target type.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.TooManyColumns">
+            <summary>
+              Looks up a localized string similar to Only 26 colums supported overall!!.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.UnresolvedAssemblyStatus">
+            <summary>
+              Looks up a localized string similar to Reason.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.UnresolvedUsedAssembly">
+            <summary>
+              Looks up a localized string similar to Unresolved assembly.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Fx.Portability.Reports.Excel.Resources.LocalizedStrings.UsedBy">
+            <summary>
+              Looks up a localized string similar to Used By.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Fx.OpenXmlExtensions.OpenXmlExtensions.GetCellRefence(DocumentFormat.OpenXml.Spreadsheet.SheetData,DocumentFormat.OpenXml.Spreadsheet.Row)">
+            <summary>
+            Determines the cell reference for a row.  This assumes that the cell of interest
+            is the next cell to be added to the row.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Fx.OpenXmlExtensions.OpenXmlExtensions.GetColumnName(System.Int32)">
+            <summary>
+            Excel column names are base-26 using letters A-Z.  This converts a base-10
+            index into the corresponding Excel column name.
+            </summary>
+        </member>
+    </members>
+</doc>
